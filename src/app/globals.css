@@ -622,3 +622,14 @@ img {
 .filter-opacity { filter: opacity(50%); }
 .filter-saturate { filter: saturate(2); }
 .filter-sepia { filter: sepia(100%); }
+
+.backdrop-none { backdrop-filter: none; }
+.backdrop-blur { backdrop-filter: blur(8px); }
+.backdrop-brightness { backdrop-filter: brightness(1.5); }
+.backdrop-contrast { backdrop-filter: contrast(1.5); }
+.backdrop-grayscale { backdrop-filter: grayscale(100%); }
+.backdrop-hue-rotate { backdrop-filter: hue-rotate(90deg); }
+.backdrop-invert { backdrop-filter: invert(100%); }
+.backdrop-opacity { backdrop-filter: opacity(50%); }
+.backdrop-saturate { backdrop-filter: saturate(2); }
+.backdrop-sepia { backdrop-filter: sepia(100%); }
