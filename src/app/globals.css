@@ -557,3 +557,10 @@ img {
 .select-text { user-select: text; }
 .select-all { user-select: all; }
 .select-auto { user-select: auto; }
+
+.fill-current { fill: currentColor; }
+.fill-primary { fill: var(--text-primary); }
+.fill-secondary { fill: var(--text-secondary); }
+.fill-blue { fill: var(--accent-blue); }
+.fill-green { fill: var(--accent-green); }
+.fill-purple { fill: var(--accent-purple); }
