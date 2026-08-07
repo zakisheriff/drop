@@ -18,6 +18,7 @@ export default function HomePage() {
       <Stats />
       <TestimonialsSection />
       <DownloadSection />
+      <FAQ />
     </main>
   );
 }
