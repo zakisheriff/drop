@@ -658,3 +658,8 @@ img {
 .page-break-before { page-break-before: always; }
 .page-break-after { page-break-after: always; }
 .page-break-inside-avoid { page-break-inside: avoid; }
+
+.orphans-1 { orphans: 1; }
+.orphans-2 { orphans: 2; }
+.orphans-3 { orphans: 3; }
+.orphans-4 { orphans: 4; }
