@@ -650,3 +650,6 @@ img {
 .blend-saturation { mix-blend-mode: saturation; }
 .blend-color { mix-blend-mode: color; }
 .blend-luminosity { mix-blend-mode: luminosity; }
+
+.isolate { isolation: isolate; }
+.isolation-auto { isolation: auto; }
