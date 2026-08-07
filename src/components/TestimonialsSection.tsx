@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import TestimonialCard from "./TestimonialCard";
 
 const testimonials = [
   {
@@ -22,3 +23,10 @@ const testimonials = [
     avatar: "👨",
   },
 ];
+
+export default function TestimonialsSection() {
+  return (
+    <section className="testimonials">
+    </section>
+  );
+}
