@@ -595,3 +595,7 @@ img {
 .break-before { break-before: page; }
 .break-after { break-after: page; }
 .break-inside-avoid { break-inside: avoid; }
+
+.quote-none { quotes: none; }
+.quote::before { content: open-quote; }
+.quote::after { content: close-quote; }
