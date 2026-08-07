@@ -27,6 +27,8 @@ const testimonials = [
 export default function TestimonialsSection() {
   return (
     <section className="testimonials">
+      <div className="testimonials-container">
+      </div>
     </section>
   );
 }
