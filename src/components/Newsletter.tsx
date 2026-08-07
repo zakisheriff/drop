@@ -8,6 +8,8 @@ export default function Newsletter() {
   return (
     <section className="newsletter">
       <div className="newsletter-container">
+        <div className="newsletter-content">
+        </div>
       </div>
     </section>
   );
