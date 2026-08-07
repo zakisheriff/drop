@@ -13,6 +13,9 @@ export default function Hero() {
           <h1 className="hero-title">
             Copy. Download. Done.
           </h1>
+          <p className="hero-subtitle">
+            A native macOS utility that monitors your clipboard for video links and downloads them instantly.
+          </p>
         </div>
       </div>
     </section>
