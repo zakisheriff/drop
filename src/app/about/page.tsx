@@ -15,6 +15,12 @@ export default function AboutPage() {
             <p>We're building the simplest way to download videos on macOS</p>
           </div>
         </section>
+        <section className="about-content">
+          <div className="about-content-container">
+            <h2>Our Mission</h2>
+            <p>Drop was created with one goal in mind: make downloading videos as simple as possible. No more copying and pasting URLs, no more complicated software.</p>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
