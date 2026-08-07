@@ -30,8 +30,14 @@
 .cta .btn-primary {
   background: #ffffff;
   color: #0066ff;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
 .cta .btn-primary:hover {
   background: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.cta .btn-primary:active {
+  transform: translateY(0);
 }
