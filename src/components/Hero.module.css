@@ -6,3 +6,9 @@
   padding: 120px 24px 80px;
   background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
 }
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
