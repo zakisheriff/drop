@@ -23,6 +23,8 @@ const features = [
 export default function FeaturesSection() {
   return (
     <section className="features">
+      <div className="features-container">
+      </div>
     </section>
   );
 }
