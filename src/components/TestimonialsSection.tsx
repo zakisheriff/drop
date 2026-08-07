@@ -23,6 +23,24 @@ const testimonials = [
     content: "Best tool for saving lecture videos. Simple and reliable.",
     avatar: "👨",
   },
+  {
+    name: "Sarah Wilson",
+    role: "YouTuber",
+    content: "I use Drop to save inspiration videos. Works perfectly every time!",
+    avatar: "👩‍🎨",
+  },
+  {
+    name: "David Brown",
+    role: "Designer",
+    content: "Finally a tool that just works. No bloat, no ads, just downloads.",
+    avatar: "👨‍💻",
+  },
+  {
+    name: "Emily Davis",
+    role: "Researcher",
+    content: "Drop helps me save academic videos for later reference. Essential tool!",
+    avatar: "👩‍🔬",
+  },
 ];
 
 export default function TestimonialsSection() {
