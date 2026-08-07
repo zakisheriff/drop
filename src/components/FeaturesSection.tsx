@@ -20,6 +20,21 @@ const features = [
     title: "Highest Quality",
     description: "Downloads videos in the highest available quality, up to 4K resolution.",
   },
+  {
+    icon: "🔒",
+    title: "Privacy First",
+    description: "Your data stays on your device. We don't collect or share any personal information.",
+  },
+  {
+    icon: "🌐",
+    title: "Wide Support",
+    description: "Supports over 50 popular video sites including YouTube, Vimeo, and more.",
+  },
+  {
+    icon: "📱",
+    title: "Lightweight",
+    description: "Minimal resource usage. Drop runs silently in the background without slowing down your Mac.",
+  },
 ];
 
 export default function FeaturesSection() {
