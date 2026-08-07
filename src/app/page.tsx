@@ -14,6 +14,7 @@ export default function HomePage() {
   return (
     <main>
       <Hero />
+      <FeaturesSection />
     </main>
   );
 }
