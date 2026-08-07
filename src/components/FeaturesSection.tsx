@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import FeatureCard from "./FeatureCard";
 
 const features = [
   {
@@ -27,6 +28,16 @@ export default function FeaturesSection() {
         <div className="features-header">
           <h2 className="features-title">Features</h2>
           <p className="features-subtitle">Everything you need to download videos instantly</p>
+        </div>
+        <div className="features-grid">
+          {features.map((feature, index) => (
+            <FeatureCard
+              key={index}
+              icon={feature.icon}
+              title={feature.title}
+              description={feature.description}
+            />
+          ))}
         </div>
       </div>
     </section>
