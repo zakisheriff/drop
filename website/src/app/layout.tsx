@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Drop - Copy. Download. Done.",
   description: "A native macOS utility that monitors your clipboard for video links and downloads them instantly with Control+D in highest quality.",
-  metadataBase: new URL("http://localhost:3001"), // Standard fallback for dev
+  metadataBase: new URL("https://drop.theatom.lk"),
   icons: {
     icon: "/logo-drop.png",
     shortcut: "/logo-drop.png",

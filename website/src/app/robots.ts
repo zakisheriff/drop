@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "http://localhost:3001/sitemap.xml",
+    sitemap: "https://drop.theatom.lk/sitemap.xml",
   };
 }
