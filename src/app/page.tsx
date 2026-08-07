@@ -16,6 +16,7 @@ export default function HomePage() {
       <Hero />
       <FeaturesSection />
       <Stats />
+      <TestimonialsSection />
     </main>
   );
 }
