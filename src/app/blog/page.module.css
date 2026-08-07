@@ -2,6 +2,7 @@
   padding: 160px 24px 80px;
   background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
   text-align: center;
+  animation: fadeIn 0.6s ease-out;
 }
 
 .blog-hero-container {
@@ -41,12 +42,14 @@
   background: var(--bg-primary);
   border-radius: 16px;
   border: 1px solid var(--border-color);
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  cursor: pointer;
 }
 
 .blog-card:hover {
   border-color: var(--border-hover);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transform: translateY(-4px);
 }
 
 .blog-card h2 {
@@ -70,7 +73,13 @@
   color: var(--text-secondary);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
   .blog-grid {
     grid-template-columns: 1fr;
   }
