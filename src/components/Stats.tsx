@@ -8,3 +8,10 @@ const stats = [
   { value: "50+", label: "Supported Sites" },
   { value: "100%", label: "Free" },
 ];
+
+export default function Stats() {
+  return (
+    <section className="stats">
+    </section>
+  );
+}
