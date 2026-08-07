@@ -11,6 +11,9 @@ interface FeatureCardProps {
 export default function FeatureCard({ icon, title, description }: FeatureCardProps) {
   return (
     <div className="feature-card">
+      <div className="feature-icon">
+        <span>{icon}</span>
+      </div>
     </div>
   );
 }
