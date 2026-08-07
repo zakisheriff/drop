@@ -60,3 +60,13 @@
   font-size: 1.25rem;
   color: var(--text-secondary);
 }
+
+.faq-answer {
+  padding: 0 24px 20px;
+}
+
+.faq-answer p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
