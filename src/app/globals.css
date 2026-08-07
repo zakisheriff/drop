@@ -691,3 +691,12 @@ img {
 .counter-reset-list { counter-reset: list-counter 0; }
 .counter-increment-list { counter-increment: list-counter 1; }
 .counter-list::before { content: counter(list-counter) ". "; }
+
+.cursor-zoom-in { cursor: zoom-in; }
+.cursor-zoom-out { cursor: zoom-out; }
+.cursor-col-resize { cursor: col-resize; }
+.cursor-row-resize { cursor: row-resize; }
+.cursor-text { cursor: text; }
+.cursor-wait { cursor: wait; }
+.cursor-help { cursor: help; }
+.cursor-progress { cursor: progress; }
