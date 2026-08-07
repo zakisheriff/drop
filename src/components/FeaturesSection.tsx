@@ -24,6 +24,10 @@ export default function FeaturesSection() {
   return (
     <section className="features">
       <div className="features-container">
+        <div className="features-header">
+          <h2 className="features-title">Features</h2>
+          <p className="features-subtitle">Everything you need to download videos instantly</p>
+        </div>
       </div>
     </section>
   );
