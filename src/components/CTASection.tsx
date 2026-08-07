@@ -6,6 +6,8 @@ export default function CTASection() {
   return (
     <section className="cta">
       <div className="cta-container">
+        <div className="cta-content">
+        </div>
       </div>
     </section>
   );
