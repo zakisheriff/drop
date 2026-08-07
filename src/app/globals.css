@@ -756,3 +756,19 @@ img {
 .scroll-p-4 { scroll-padding: 16px; }
 .scroll-p-6 { scroll-padding: 24px; }
 .scroll-p-8 { scroll-padding: 32px; }
+
+.underline { text-decoration-line: underline; }
+.overline { text-decoration-line: overline; }
+.line-through { text-decoration-line: line-through; }
+.no-underline { text-decoration-line: none; }
+-decoration-solid { text-decoration-style: solid; }
+-decoration-double { text-decoration-style: double; }
+-decoration-dotted { text-decoration-style: dotted; }
+-decoration-dashed { text-decoration-style: dashed; }
+-decoration-wavy { text-decoration-style: wavy; }
+.underline-offset-auto { text-underline-offset: auto; }
+.underline-offset-0 { text-underline-offset: 0px; }
+.underline-offset-1 { text-underline-offset: 2px; }
+.underline-offset-2 { text-underline-offset: 4px; }
+.underline-offset-4 { text-underline-offset: 8px; }
+.underline-offset-8 { text-underline-offset: 16px; }
