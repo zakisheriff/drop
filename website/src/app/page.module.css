@@ -13,8 +13,9 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 0 2rem; /* Inset letters slightly from the edges */
   font-size: 3.5rem;
-  font-weight: 900;
+  font-weight: 600;
   color: #0066ff; /* Royal blue */
   user-select: none;
   margin-bottom: 8px;
