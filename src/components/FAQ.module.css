@@ -2,3 +2,8 @@
   padding: 120px 24px;
   background: var(--bg-secondary);
 }
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
