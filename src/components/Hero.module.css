@@ -52,6 +52,13 @@
   margin-right: auto;
 }
 
+.hero-cta {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2.5rem;
@@ -59,5 +66,10 @@
   
   .hero-subtitle {
     font-size: 1rem;
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
   }
 }
