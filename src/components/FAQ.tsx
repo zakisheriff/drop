@@ -31,6 +31,12 @@ export default function FAQ() {
           <h2 className="faq-title">Frequently Asked Questions</h2>
           <p className="faq-subtitle">Got questions? We've got answers.</p>
         </div>
+        <div className="faq-list">
+          {faqs.map((faq, index) => (
+            <div key={index} className="faq-item">
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
