@@ -571,3 +571,8 @@ img {
 .stroke-blue { stroke: var(--accent-blue); }
 .stroke-green { stroke: var(--accent-green); }
 .stroke-purple { stroke: var(--accent-purple); }
+
+.table-auto { table-layout: auto; }
+.table-fixed { table-layout: fixed; }
+.border-collapse { border-collapse: collapse; }
+.border-separate { border-separate: separate; }
