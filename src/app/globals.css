@@ -718,3 +718,10 @@ img {
 .snap-center { scroll-snap-align: center; }
 .snap-normal { scroll-snap-align: normal; }
 .snap-none-align { scroll-snap-align: none; }
+
+.touch-auto { touch-action: auto; }
+.touch-none { touch-action: none; }
+.touch-pan-x { touch-action: pan-x; }
+.touch-pan-y { touch-action: pan-y; }
+.touch-pinch-zoom { touch-action: pinch-zoom; }
+.touch-manipulation { touch-action: manipulation; }
