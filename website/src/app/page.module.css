@@ -8,65 +8,23 @@
   overflow: hidden;
 }
 
-/* NAVBAR */
-.navbar {
-  height: 56px;
+/* BRAND TITLE (D R O P in spaced blue letters) */
+.brandTitle {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 24px;
-  border-bottom: 1px solid var(--border-color);
-  background-color: var(--bg-primary);
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-  color: var(--text-primary);
-}
-
-.logoIcon {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-}
-
-.logoText {
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-}
-
-.logoBadge {
-  font-size: 0.65rem;
-  background-color: var(--bg-tertiary);
-  color: var(--text-secondary);
-  padding: 2px 6px;
-  border-radius: 4px;
-  margin-left: 2px;
-  font-weight: 600;
-}
-
-.navRight {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.githubLink {
-  color: var(--text-primary);
-  padding: 8px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  transition: background-color 0.2s;
+  gap: 4rem; /* Spaced out widely as requested */
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #0066ff; /* Royal blue */
+  user-select: none;
+  margin-bottom: 8px;
 }
 
-.githubLink:hover {
-  background-color: var(--bg-tertiary);
+@media (max-width: 480px) {
+  .brandTitle {
+    gap: 2rem;
+    font-size: 2.5rem;
+  }
 }
 
 /* MAIN VIEWPORT */
@@ -84,7 +42,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 32px;
   width: 100%;
   max-width: 680px;
   animation: fadeIn 0.6s ease-out;
@@ -98,7 +56,7 @@
   background-color: #000000;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
   border: 1px solid var(--border-color);
 }
 
