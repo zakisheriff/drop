@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import styles from "./TeamCard.module.css";
 
 interface TeamCardProps {
   name: string;
@@ -10,12 +11,12 @@ interface TeamCardProps {
 
 export default function TeamCard({ name, role, avatar }: TeamCardProps) {
   return (
-    <div className="team-card">
-      <div className="team-avatar">
+    <div className={styles.teamCard}>
+      <div className={styles.teamAvatar}>
         <span>{avatar}</span>
       </div>
-      <h3 className="team-name">{name}</h3>
-      <p className="team-role">{role}</p>
+      <h3 className={styles.teamName}>{name}</h3>
+      <p className={styles.teamRole}>{role}</p>
     </div>
   );
 }
