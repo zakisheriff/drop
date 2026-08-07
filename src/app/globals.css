@@ -748,3 +748,11 @@ img {
 .scroll-m-4 { scroll-margin: 16px; }
 .scroll-m-6 { scroll-margin: 24px; }
 .scroll-m-8 { scroll-margin: 32px; }
+
+.scroll-p-0 { scroll-padding: 0; }
+.scroll-p-1 { scroll-padding: 4px; }
+.scroll-p-2 { scroll-padding: 8px; }
+.scroll-p-3 { scroll-padding: 12px; }
+.scroll-p-4 { scroll-padding: 16px; }
+.scroll-p-6 { scroll-padding: 24px; }
+.scroll-p-8 { scroll-padding: 32px; }
