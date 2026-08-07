@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import styles from "./page.module.css";
 
 export default function ContactPage() {
   const [name, setName] = useState("");
@@ -13,16 +14,16 @@ export default function ContactPage() {
     <>
       <Navbar />
       <main>
-        <section className="contact-hero">
-          <div className="contact-hero-container">
+        <section className={styles.contactHero}>
+          <div className={styles.contactHeroContainer}>
             <h1>Contact Us</h1>
             <p>Have questions? We'd love to hear from you.</p>
           </div>
         </section>
-        <section className="contact-form-section">
-          <div className="contact-form-container">
-            <form className="contact-form">
-              <div className="form-group">
+        <section className={styles.contactFormSection}>
+          <div className={styles.contactFormContainer}>
+            <form className={styles.contactForm}>
+              <div className={styles.formGroup}>
                 <label htmlFor="name">Name</label>
                 <input 
                   type="text" 
@@ -31,7 +32,7 @@ export default function ContactPage() {
                   onChange={(e) => setName(e.target.value)}
                 />
               </div>
-              <div className="form-group">
+              <div className={styles.formGroup}>
                 <label htmlFor="email">Email</label>
                 <input 
                   type="email" 
@@ -40,7 +41,7 @@ export default function ContactPage() {
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
-              <div className="form-group">
+              <div className={styles.formGroup}>
                 <label htmlFor="message">Message</label>
                 <textarea 
                   id="message"
