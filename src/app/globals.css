@@ -12,3 +12,7 @@
   --accent-purple: #7c3aed;
   --font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
