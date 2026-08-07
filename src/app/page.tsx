@@ -9,3 +9,10 @@ import DownloadSection from "@/components/DownloadSection";
 import FAQ from "@/components/FAQ";
 import Newsletter from "@/components/Newsletter";
 import CTASection from "@/components/CTASection";
+
+export default function HomePage() {
+  return (
+    <main>
+    </main>
+  );
+}
