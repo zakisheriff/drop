@@ -13,6 +13,14 @@ export default function Stats() {
   return (
     <section className="stats">
       <div className="stats-container">
+        <div className="stats-grid">
+          {stats.map((stat, index) => (
+            <div key={index} className="stat-item">
+              <span className="stat-value">{stat.value}</span>
+              <span className="stat-label">{stat.label}</span>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
