@@ -611,3 +611,14 @@ img {
 .mask-none { mask: none; }
 .mask-linear { mask: linear-gradient(black, black); }
 .mask-radial { mask: radial-gradient(black, black); }
+
+.filter-none { filter: none; }
+.filter-blur { filter: blur(4px); }
+.filter-brightness { filter: brightness(1.5); }
+.filter-contrast { filter: contrast(1.5); }
+.filter-grayscale { filter: grayscale(100%); }
+.filter-hue-rotate { filter: hue-rotate(90deg); }
+.filter-invert { filter: invert(100%); }
+.filter-opacity { filter: opacity(50%); }
+.filter-saturate { filter: saturate(2); }
+.filter-sepia { filter: sepia(100%); }
