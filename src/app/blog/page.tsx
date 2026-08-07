@@ -24,3 +24,14 @@ const blogPosts = [
     author: "Drop Team",
   },
 ];
+
+export default function BlogPage() {
+  return (
+    <>
+      <Navbar />
+      <main>
+      </main>
+      <Footer />
+    </>
+  );
+}
