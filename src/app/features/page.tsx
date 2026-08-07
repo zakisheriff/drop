@@ -18,6 +18,25 @@ export default function FeaturesPage() {
           </div>
         </section>
         <FeaturesSection />
+        <section className={styles.featuresExtra}>
+          <div className={styles.featuresExtraContainer}>
+            <h2>Why Choose Drop?</h2>
+            <div className={styles.extraGrid}>
+              <div className={styles.extraItem}>
+                <h3>Fast</h3>
+                <p>Downloads start instantly with no delays.</p>
+              </div>
+              <div className={styles.extraItem}>
+                <h3>Simple</h3>
+                <p>One shortcut to download any video.</p>
+              </div>
+              <div className={styles.extraItem}>
+                <h3>Reliable</h3>
+                <p>Works every time, no exceptions.</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
