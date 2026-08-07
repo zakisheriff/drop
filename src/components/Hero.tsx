@@ -17,6 +17,9 @@ export default function Hero() {
             A native macOS utility that monitors your clipboard for video links and downloads them instantly.
           </p>
           <div className="hero-cta">
+            <button className="btn-primary">
+              Download for macOS
+            </button>
           </div>
         </div>
       </div>
