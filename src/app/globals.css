@@ -682,3 +682,8 @@ img {
 .contain-paint { contain: paint; }
 .contain-content { contain: content; }
 .contain-strict { contain: strict; }
+
+.content-none { content: none; }
+.content-empty::before { content: ""; }
+.content-open::before { content: open-quote; }
+.content-close::after { content: close-quote; }
