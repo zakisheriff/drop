@@ -2,3 +2,8 @@
   padding: 120px 24px;
   background: var(--bg-primary);
 }
+
+.testimonials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
