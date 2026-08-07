@@ -44,3 +44,7 @@ html, body {
   gap: 8px;
   transition: background-color 0.2s, transform 0.1s;
 }
+
+.btn-primary:hover {
+  background: #272727;
+}
