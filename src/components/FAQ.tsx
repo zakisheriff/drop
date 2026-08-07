@@ -27,6 +27,10 @@ export default function FAQ() {
   return (
     <section className="faq">
       <div className="faq-container">
+        <div className="faq-header">
+          <h2 className="faq-title">Frequently Asked Questions</h2>
+          <p className="faq-subtitle">Got questions? We've got answers.</p>
+        </div>
       </div>
     </section>
   );
