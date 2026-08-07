@@ -28,6 +28,10 @@ export default function TestimonialsSection() {
   return (
     <section className="testimonials">
       <div className="testimonials-container">
+        <div className="testimonials-header">
+          <h2 className="testimonials-title">What users say</h2>
+          <p className="testimonials-subtitle">Trusted by thousands of users worldwide</p>
+        </div>
       </div>
     </section>
   );
