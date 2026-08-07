@@ -122,3 +122,8 @@ img {
   height: auto;
   display: block;
 }
+
+::selection {
+  background: var(--accent-blue);
+  color: #ffffff;
+}
