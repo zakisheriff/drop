@@ -3,3 +3,8 @@
   background: var(--bg-primary);
   text-align: center;
 }
+
+.newsletter-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
