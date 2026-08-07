@@ -12,6 +12,7 @@ export default function Navbar() {
             <span className="logo-text">DROP</span>
           </Link>
         </div>
+        <div className="navbar-links"></div>
       </div>
     </nav>
   );
