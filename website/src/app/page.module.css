@@ -11,10 +11,10 @@
 /* BRAND TITLE (D R O P in spaced blue letters) */
 .brandTitle {
   display: flex;
-  justify-content: center;
-  gap: 4rem; /* Spaced out widely as requested */
+  justify-content: space-between;
+  width: 100%;
   font-size: 3.5rem;
-  font-weight: 800;
+  font-weight: 900;
   color: #0066ff; /* Royal blue */
   user-select: none;
   margin-bottom: 8px;
@@ -22,7 +22,6 @@
 
 @media (max-width: 480px) {
   .brandTitle {
-    gap: 2rem;
     font-size: 2.5rem;
   }
 }
