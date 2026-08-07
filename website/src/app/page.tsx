@@ -23,7 +23,7 @@ export default function RootPage() {
           <div className={styles.videoContainer}>
             <video
               className={styles.videoElement}
-              src="/demo2.mp4"
+              src="/demo3.mp4"
               autoPlay
               loop
               muted
