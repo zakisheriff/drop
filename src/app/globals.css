@@ -447,3 +447,9 @@ img {
 .absolute { position: absolute; }
 .fixed { position: fixed; }
 .sticky { position: sticky; }
+
+.visible { visibility: visible; }
+.invisible { visibility: hidden; }
+.opacity-0 { opacity: 0; }
+.opacity-50 { opacity: 0.5; }
+.opacity-100 { opacity: 1; }
