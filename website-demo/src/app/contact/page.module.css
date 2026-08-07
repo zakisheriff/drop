@@ -1,0 +1,90 @@
+.contact-hero {
+  padding: 160px 24px 80px;
+  background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
+  text-align: center;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.contact-hero-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.contact-hero p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+}
+
+.contact-form-section {
+  padding: 80px 24px;
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.1);
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.successMessage {
+  text-align: center;
+  padding: 48px;
+  background: var(--bg-secondary);
+  border-radius: 16px;
+}
+
+.successMessage h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--accent-green);
+}
+
+.successMessage p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
