@@ -43,7 +43,7 @@ export default function RootPage() {
               <span className={styles.keycap}>⌃D</span>
               <span>to copy and download instantly</span>
             </div>
-            <span className={styles.metaText}>Requires macOS 15.0+ • v1.0.0</span>
+            <span className={styles.metaText}>Requires macOS 15.0+</span>
           </div>
         </div>
       </main>
