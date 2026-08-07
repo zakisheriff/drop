@@ -707,3 +707,14 @@ img {
 .overscroll-auto { overscroll-behavior: auto; }
 .overscroll-contain { overscroll-behavior: contain; }
 .overscroll-none { overscroll-behavior: none; }
+
+.snap-none { scroll-snap-type: none; }
+.snap-x { scroll-snap-type: x proximity; }
+.snap-y { scroll-snap-type: y proximity; }
+.snap-mandatory { scroll-snap-type: mandatory; }
+.snap-proximity { scroll-snap-type: proximity; }
+.snap-start { scroll-snap-align: start; }
+.snap-end { scroll-snap-align: end; }
+.snap-center { scroll-snap-align: center; }
+.snap-normal { scroll-snap-align: normal; }
+.snap-none-align { scroll-snap-align: none; }
