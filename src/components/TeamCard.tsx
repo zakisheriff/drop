@@ -7,3 +7,10 @@ interface TeamCardProps {
   role: string;
   avatar: string;
 }
+
+export default function TeamCard({ name, role, avatar }: TeamCardProps) {
+  return (
+    <div className="team-card">
+    </div>
+  );
+}
