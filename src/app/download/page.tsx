@@ -10,6 +10,13 @@ export default function DownloadPage() {
     <>
       <Navbar />
       <main>
+        <section className="download-hero">
+          <div className="download-hero-container">
+            <h1>Download Drop</h1>
+            <p>Get started with Drop for macOS</p>
+          </div>
+        </section>
+        <DownloadSection />
       </main>
       <Footer />
     </>
