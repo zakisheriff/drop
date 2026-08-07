@@ -14,8 +14,15 @@ const features = [
     description: "Automatically detects video links in your clipboard and prepares them for download.",
   },
   {
-    icon: " quality",
+    icon: "✨",
     title: "Highest Quality",
     description: "Downloads videos in the highest available quality, up to 4K resolution.",
   },
 ];
+
+export default function FeaturesSection() {
+  return (
+    <section className="features">
+    </section>
+  );
+}
