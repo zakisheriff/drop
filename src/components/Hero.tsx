@@ -12,7 +12,7 @@ export default function Hero() {
             <span>New Release</span>
           </div>
           <h1 className={styles.heroTitle}>
-            Copy. Download. Done.
+            <span className={styles.heroTitleGradient}>Copy. Download. Done.</span>
           </h1>
           <p className={styles.heroSubtitle}>
             A native macOS utility that monitors your clipboard for video links and downloads them instantly.
