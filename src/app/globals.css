@@ -700,3 +700,6 @@ img {
 .cursor-wait { cursor: wait; }
 .cursor-help { cursor: help; }
 .cursor-progress { cursor: progress; }
+
+.scroll-auto { scroll-behavior: auto; }
+.scroll-smooth { scroll-behavior: smooth; }
