@@ -3,6 +3,13 @@
   background: var(--bg-primary);
   border-radius: 16px;
   border: 1px solid var(--border-color);
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.testimonial-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
 }
 
 .testimonial-avatar {
@@ -22,6 +29,7 @@
   line-height: 1.6;
   color: var(--text-primary);
   margin-bottom: 20px;
+  font-style: italic;
 }
 
 .testimonial-author {
