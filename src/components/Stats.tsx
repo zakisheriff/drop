@@ -12,6 +12,8 @@ const stats = [
 export default function Stats() {
   return (
     <section className="stats">
+      <div className="stats-container">
+      </div>
     </section>
   );
 }
