@@ -2,6 +2,7 @@
 
 import React from "react";
 import TestimonialCard from "./TestimonialCard";
+import styles from "./TestimonialsSection.module.css";
 
 const testimonials = [
   {
@@ -26,13 +27,13 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section className="testimonials">
-      <div className="testimonials-container">
-        <div className="testimonials-header">
-          <h2 className="testimonials-title">What users say</h2>
-          <p className="testimonials-subtitle">Trusted by thousands of users worldwide</p>
+    <section className={styles.testimonials}>
+      <div className={styles.testimonialsContainer}>
+        <div className={styles.testimonialsHeader}>
+          <h2 className={styles.testimonialsTitle}>What users say</h2>
+          <p className={styles.testimonialsSubtitle}>Trusted by thousands of users worldwide</p>
         </div>
-        <div className="testimonials-grid">
+        <div className={styles.testimonialsGrid}>
           {testimonials.map((testimonial, index) => (
             <TestimonialCard
               key={index}
