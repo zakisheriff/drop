@@ -18,5 +18,6 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://demo.drop.theatom.lk"),
   openGraph: {
     title: "Drop Demo - Copy. Download. Done.",
+    description: "Download videos in highest quality with a single shortcut on macOS.",
   },
 };
