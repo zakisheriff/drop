@@ -547,3 +547,8 @@ img {
 
 .pointer-events-none { pointer-events: none; }
 .pointer-events-auto { pointer-events: auto; }
+
+.resize-none { resize: none; }
+.resize { resize: both; }
+.resize-x { resize: horizontal; }
+.resize-y { resize: vertical; }
