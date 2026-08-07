@@ -1,22 +1,23 @@
 "use client";
 
 import React from "react";
+import styles from "./Hero.module.css";
 
 export default function Hero() {
   return (
-    <section className="hero">
-      <div className="hero-container">
-        <div className="hero-content">
-          <div className="hero-badge">
+    <section className={styles.hero}>
+      <div className={styles.heroContainer}>
+        <div className={styles.heroContent}>
+          <div className={styles.heroBadge}>
             <span>New Release</span>
           </div>
-          <h1 className="hero-title">
+          <h1 className={styles.heroTitle}>
             Copy. Download. Done.
           </h1>
-          <p className="hero-subtitle">
+          <p className={styles.heroSubtitle}>
             A native macOS utility that monitors your clipboard for video links and downloads them instantly.
           </p>
-          <div className="hero-cta">
+          <div className={styles.heroCta}>
             <button className="btn-primary">
               Download for macOS
             </button>
@@ -24,12 +25,12 @@ export default function Hero() {
               Learn More
             </button>
           </div>
-          <div className="hero-info">
-            <span className="hero-info-text">Press</span>
-            <span className="hero-keycap">⌃D</span>
-            <span className="hero-info-text">to download instantly</span>
+          <div className={styles.heroInfo}>
+            <span className={styles.heroInfoText}>Press</span>
+            <span className={styles.heroKeycap}>⌃D</span>
+            <span className={styles.heroInfoText}>to download instantly</span>
           </div>
-          <span className="hero-requirements">Requires macOS 15.0+</span>
+          <span className={styles.heroRequirements}>Requires macOS 15.0+</span>
         </div>
       </div>
     </section>
