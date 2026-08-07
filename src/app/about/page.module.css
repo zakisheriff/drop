@@ -1,0 +1,44 @@
+.about-hero {
+  padding: 160px 24px 80px;
+  background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
+  text-align: center;
+}
+
+.about-hero-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.about-hero p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+}
+
+.about-content {
+  padding: 80px 24px;
+}
+
+.about-content-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
