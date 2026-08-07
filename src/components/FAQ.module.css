@@ -36,6 +36,11 @@
   border-radius: 12px;
   border: 1px solid var(--border-color);
   overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.faq-item:hover {
+  border-color: var(--border-hover);
 }
 
 .faq-question {
@@ -59,10 +64,12 @@
 .faq-icon {
   font-size: 1.25rem;
   color: var(--text-secondary);
+  transition: transform 0.2s;
 }
 
 .faq-answer {
   padding: 0 24px 20px;
+  animation: slideDown 0.3s ease-out;
 }
 
 .faq-answer p {
