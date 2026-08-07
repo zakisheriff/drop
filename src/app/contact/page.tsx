@@ -9,6 +9,12 @@ export default function ContactPage() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitted(true);
+  };
 
   return (
     <>
@@ -22,35 +28,45 @@ export default function ContactPage() {
         </section>
         <section className={styles.contactFormSection}>
           <div className={styles.contactFormContainer}>
-            <form className={styles.contactForm}>
-              <div className={styles.formGroup}>
-                <label htmlFor="name">Name</label>
-                <input 
-                  type="text" 
-                  id="name"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                />
+            {submitted ? (
+              <div className={styles.successMessage}>
+                <h2>Thank you!</h2>
+                <p>Your message has been sent. We'll get back to you soon.</p>
               </div>
-              <div className={styles.formGroup}>
-                <label htmlFor="email">Email</label>
-                <input 
-                  type="email" 
-                  id="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-              <div className={styles.formGroup}>
-                <label htmlFor="message">Message</label>
-                <textarea 
-                  id="message"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                />
-              </div>
-              <button type="submit" className="btn-primary">Send Message</button>
-            </form>
+            ) : (
+              <form className={styles.contactForm} onSubmit={handleSubmit}>
+                <div className={styles.formGroup}>
+                  <label htmlFor="name">Name</label>
+                  <input 
+                    type="text" 
+                    id="name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    required
+                  />
+                </div>
+                <div className={styles.formGroup}>
+                  <label htmlFor="email">Email</label>
+                  <input 
+                    type="email" 
+                    id="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
+                </div>
+                <div className={styles.formGroup}>
+                  <label htmlFor="message">Message</label>
+                  <textarea 
+                    id="message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    required
+                  />
+                </div>
+                <button type="submit" className="btn-primary">Send Message</button>
+              </form>
+            )}
           </div>
         </section>
       </main>
