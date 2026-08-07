@@ -30,6 +30,12 @@ export default function BlogPage() {
     <>
       <Navbar />
       <main>
+        <section className="blog-hero">
+          <div className="blog-hero-container">
+            <h1>Blog</h1>
+            <p>Latest news and updates from Drop</p>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
