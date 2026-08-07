@@ -14,6 +14,7 @@ export default function FeatureCard({ icon, title, description }: FeatureCardPro
       <div className="feature-icon">
         <span>{icon}</span>
       </div>
+      <h3 className="feature-title">{title}</h3>
     </div>
   );
 }
