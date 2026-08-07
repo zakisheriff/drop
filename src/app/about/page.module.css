@@ -2,6 +2,7 @@
   padding: 160px 24px 80px;
   background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
   text-align: center;
+  animation: fadeIn 0.6s ease-out;
 }
 
 .about-hero-container {
@@ -41,4 +42,55 @@
   font-size: 1.1rem;
   line-height: 1.8;
   color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.about-values {
+  padding: 80px 24px;
+  background: var(--bg-secondary);
+}
+
+.about-values-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-values h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 48px;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.valueItem {
+  padding: 32px;
+  background: var(--bg-primary);
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+}
+
+.valueItem h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.valueItem p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .valuesGrid {
+    grid-template-columns: 1fr;
+  }
 }
