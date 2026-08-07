@@ -36,6 +36,22 @@ export default function BlogPage() {
             <p>Latest news and updates from Drop</p>
           </div>
         </section>
+        <section className="blog-content">
+          <div className="blog-container">
+            <div className="blog-grid">
+              {blogPosts.map((post, index) => (
+                <article key={index} className="blog-card">
+                  <h2>{post.title}</h2>
+                  <p>{post.excerpt}</p>
+                  <div className="blog-meta">
+                    <span>{post.author}</span>
+                    <span>{post.date}</span>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
