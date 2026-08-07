@@ -3,6 +3,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import styles from "./page.module.css";
 
 const blogPosts = [
   {
@@ -30,20 +31,20 @@ export default function BlogPage() {
     <>
       <Navbar />
       <main>
-        <section className="blog-hero">
-          <div className="blog-hero-container">
+        <section className={styles.blogHero}>
+          <div className={styles.blogHeroContainer}>
             <h1>Blog</h1>
             <p>Latest news and updates from Drop</p>
           </div>
         </section>
-        <section className="blog-content">
-          <div className="blog-container">
-            <div className="blog-grid">
+        <section className={styles.blogContent}>
+          <div className={styles.blogContainer}>
+            <div className={styles.blogGrid}>
               {blogPosts.map((post, index) => (
-                <article key={index} className="blog-card">
+                <article key={index} className={styles.blogCard}>
                   <h2>{post.title}</h2>
                   <p>{post.excerpt}</p>
-                  <div className="blog-meta">
+                  <div className={styles.blogMeta}>
                     <span>{post.author}</span>
                     <span>{post.date}</span>
                   </div>
