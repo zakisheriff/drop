@@ -8,3 +8,10 @@ interface TestimonialCardProps {
   content: string;
   avatar: string;
 }
+
+export default function TestimonialCard({ name, role, content, avatar }: TestimonialCardProps) {
+  return (
+    <div className="testimonial-card">
+    </div>
+  );
+}
