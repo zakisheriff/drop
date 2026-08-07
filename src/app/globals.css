@@ -668,3 +668,9 @@ img {
 .widows-2 { widows: 2; }
 .widows-3 { widows: 3; }
 .widows-4 { widows: 4; }
+
+.all-unset { all: unset; }
+.all-initial { all: initial; }
+.all-inherit { all: inherit; }
+.all-revert { all: revert; }
+.all-revert-layer { all: revert-layer; }
