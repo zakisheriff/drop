@@ -18,6 +18,29 @@ export default function DownloadPage() {
           </div>
         </section>
         <DownloadSection />
+        <section className={styles.downloadFeatures}>
+          <div className={styles.downloadFeaturesContainer}>
+            <h2>What's Included</h2>
+            <div className={styles.downloadFeaturesGrid}>
+              <div className={styles.downloadFeatureItem}>
+                <span className={styles.checkmark}>✓</span>
+                <span>Free forever</span>
+              </div>
+              <div className={styles.downloadFeatureItem}>
+                <span className={styles.checkmark}>✓</span>
+                <span>No ads</span>
+              </div>
+              <div className={styles.downloadFeatureItem}>
+                <span className={styles.checkmark}>✓</span>
+                <span>Regular updates</span>
+              </div>
+              <div className={styles.downloadFeatureItem}>
+                <span className={styles.checkmark}>✓</span>
+                <span>50+ supported sites</span>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
