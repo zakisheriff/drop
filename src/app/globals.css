@@ -687,3 +687,7 @@ img {
 .content-empty::before { content: ""; }
 .content-open::before { content: open-quote; }
 .content-close::after { content: close-quote; }
+
+.counter-reset-list { counter-reset: list-counter 0; }
+.counter-increment-list { counter-increment: list-counter 1; }
+.counter-list::before { content: counter(list-counter) ". "; }
