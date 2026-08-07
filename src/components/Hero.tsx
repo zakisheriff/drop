@@ -20,6 +20,9 @@ export default function Hero() {
             <button className="btn-primary">
               Download for macOS
             </button>
+            <button className="btn-secondary">
+              Learn More
+            </button>
           </div>
         </div>
       </div>
