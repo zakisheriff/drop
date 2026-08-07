@@ -20,6 +20,7 @@ export default function HomePage() {
       <DownloadSection />
       <FAQ />
       <Newsletter />
+      <CTASection />
     </main>
   );
 }
