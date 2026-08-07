@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 export default function Navbar() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -12,6 +14,12 @@ export default function Navbar() {
             <span className="logo-text">DROP</span>
           </Link>
         </div>
+        <button 
+          className="mobile-menu-btn"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+        >
+          ☰
+        </button>
         <div className="navbar-links">
           <Link href="/" className="nav-link">Home</Link>
           <Link href="/about" className="nav-link">About</Link>
