@@ -524,3 +524,9 @@ img {
 .tracking-wide { letter-spacing: 0.05em; }
 .tracking-wider { letter-spacing: 0.1em; }
 .tracking-widest { letter-spacing: 0.2em; }
+
+.whitespace-normal { white-space: normal; }
+.whitespace-nowrap { white-space: nowrap; }
+.whitespace-pre { white-space: pre; }
+.whitespace-pre-line { white-space: pre-line; }
+.whitespace-pre-wrap { white-space: pre-wrap; }
