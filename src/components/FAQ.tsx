@@ -20,6 +20,14 @@ const faqs = [
     question: "Is Drop free to use?",
     answer: "Yes, Drop is completely free to use. There are no hidden fees or premium features.",
   },
+  {
+    question: "Does Drop work with YouTube?",
+    answer: "Yes! Drop works with YouTube and over 50 other popular video sites. We're constantly adding support for more platforms.",
+  },
+  {
+    question: "Is my data safe?",
+    answer: "Absolutely. Drop runs entirely on your device and doesn't send any data to external servers. Your privacy is our priority.",
+  },
 ];
 
 export default function FAQ() {
