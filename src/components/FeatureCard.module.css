@@ -22,3 +22,10 @@
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
