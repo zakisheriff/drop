@@ -6,7 +6,13 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-container"></div>
+      <div className="navbar-container">
+        <div className="navbar-logo">
+          <Link href="/">
+            <span className="logo-text">DROP</span>
+          </Link>
+        </div>
+      </div>
     </nav>
   );
 }
