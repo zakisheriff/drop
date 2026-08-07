@@ -21,3 +21,15 @@ export const metadata: Metadata = {
     description: "Download videos in highest quality with a single shortcut on macOS.",
   },
 };
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html>
+      <body>{children}</body>
+    </html>
+  );
+}
