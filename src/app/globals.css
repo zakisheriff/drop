@@ -18,3 +18,9 @@
   margin: 0;
   padding: 0;
 }
+
+html, body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+}
