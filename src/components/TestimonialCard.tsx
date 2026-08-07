@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import styles from "./TestimonialCard.module.css";
 
 interface TestimonialCardProps {
   name: string;
@@ -11,14 +12,14 @@ interface TestimonialCardProps {
 
 export default function TestimonialCard({ name, role, content, avatar }: TestimonialCardProps) {
   return (
-    <div className="testimonial-card">
-      <div className="testimonial-avatar">
+    <div className={styles.testimonialCard}>
+      <div className={styles.testimonialAvatar}>
         <span>{avatar}</span>
       </div>
-      <p className="testimonial-content">{content}</p>
-      <div className="testimonial-author">
-        <span className="testimonial-name">{name}</span>
-        <span className="testimonial-role">{role}</span>
+      <p className={styles.testimonialContent}>{content}</p>
+      <div className={styles.testimonialAuthor}>
+        <span className={styles.testimonialName}>{name}</span>
+        <span className={styles.testimonialRole}>{role}</span>
       </div>
     </div>
   );
