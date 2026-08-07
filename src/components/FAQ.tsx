@@ -34,6 +34,13 @@ export default function FAQ() {
         <div className="faq-list">
           {faqs.map((faq, index) => (
             <div key={index} className="faq-item">
+              <button 
+                className="faq-question"
+                onClick={() => setOpenIndex(openIndex === index ? null : index)}
+              >
+                <span>{faq.question}</span>
+                <span className="faq-icon">{openIndex === index ? "−" : "+"}</span>
+              </button>
             </div>
           ))}
         </div>
