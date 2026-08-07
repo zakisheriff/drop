@@ -29,6 +29,7 @@ export default function Hero() {
             <span className="hero-keycap">⌃D</span>
             <span className="hero-info-text">to download instantly</span>
           </div>
+          <span className="hero-requirements">Requires macOS 15.0+</span>
         </div>
       </div>
     </section>
