@@ -505,3 +505,10 @@ img {
 .text-purple { color: var(--accent-purple); }
 .text-white { color: #ffffff; }
 .text-black { color: #000000; }
+
+.bg-primary { background-color: var(--bg-primary); }
+.bg-secondary { background-color: var(--bg-secondary); }
+.bg-tertiary { background-color: var(--bg-tertiary); }
+.bg-transparent { background-color: transparent; }
+.bg-white { background-color: #ffffff; }
+.bg-black { background-color: #000000; }
