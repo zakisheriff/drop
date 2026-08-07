@@ -564,3 +564,10 @@ img {
 .fill-blue { fill: var(--accent-blue); }
 .fill-green { fill: var(--accent-green); }
 .fill-purple { fill: var(--accent-purple); }
+
+.stroke-current { stroke: currentColor; }
+.stroke-primary { stroke: var(--text-primary); }
+.stroke-secondary { stroke: var(--text-secondary); }
+.stroke-blue { stroke: var(--accent-blue); }
+.stroke-green { stroke: var(--accent-green); }
+.stroke-purple { stroke: var(--accent-purple); }
