@@ -41,6 +41,11 @@ export default function FAQ() {
                 <span>{faq.question}</span>
                 <span className="faq-icon">{openIndex === index ? "−" : "+"}</span>
               </button>
+              {openIndex === index && (
+                <div className="faq-answer">
+                  <p>{faq.answer}</p>
+                </div>
+              )}
             </div>
           ))}
         </div>
