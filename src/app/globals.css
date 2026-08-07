@@ -599,3 +599,6 @@ img {
 .quote-none { quotes: none; }
 .quote::before { content: open-quote; }
 .quote::after { content: close-quote; }
+
+.counter-reset { counter-reset: none; }
+.counter-increment { counter-increment: none; }
