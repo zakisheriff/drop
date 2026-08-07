@@ -5,3 +5,8 @@
   border: 1px solid var(--border-color);
   transition: border-color 0.2s, box-shadow 0.2s;
 }
+
+.feature-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
