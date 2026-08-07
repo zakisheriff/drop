@@ -15,6 +15,7 @@ export default function HomePage() {
     <main>
       <Hero />
       <FeaturesSection />
+      <Stats />
     </main>
   );
 }
