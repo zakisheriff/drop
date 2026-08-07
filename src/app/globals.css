@@ -241,3 +241,13 @@ img {
     transition-duration: 0.01ms !important;
   }
 }
+
+@media print {
+  .navbar, .footer {
+    display: none;
+  }
+  
+  body {
+    overflow: visible;
+  }
+}
