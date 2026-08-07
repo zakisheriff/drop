@@ -37,3 +37,26 @@
   border: 1px solid var(--border-color);
   overflow: hidden;
 }
+
+.faq-question {
+  width: 100%;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.faq-question span:first-child {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.faq-icon {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+}
