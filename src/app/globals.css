@@ -221,3 +221,15 @@ img {
     transform: translateY(-10px);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #0a0a0a;
+    --bg-secondary: #111111;
+    --bg-tertiary: #1a1a1a;
+    --border-color: #262626;
+    --border-hover: #404040;
+    --text-primary: #f5f5f5;
+    --text-secondary: #a0a0a0;
+  }
+}
