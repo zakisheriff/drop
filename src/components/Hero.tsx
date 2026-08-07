@@ -24,6 +24,11 @@ export default function Hero() {
               Learn More
             </button>
           </div>
+          <div className="hero-info">
+            <span className="hero-info-text">Press</span>
+            <span className="hero-keycap">⌃D</span>
+            <span className="hero-info-text">to download instantly</span>
+          </div>
         </div>
       </div>
     </section>
