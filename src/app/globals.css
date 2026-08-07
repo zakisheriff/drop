@@ -740,3 +740,11 @@ img {
 .caret-blue { caret-color: var(--accent-blue); }
 .caret-green { caret-color: var(--accent-green); }
 .caret-purple { caret-color: var(--accent-purple); }
+
+.scroll-m-0 { scroll-margin: 0; }
+.scroll-m-1 { scroll-margin: 4px; }
+.scroll-m-2 { scroll-margin: 8px; }
+.scroll-m-3 { scroll-margin: 12px; }
+.scroll-m-4 { scroll-margin: 16px; }
+.scroll-m-6 { scroll-margin: 24px; }
+.scroll-m-8 { scroll-margin: 32px; }
