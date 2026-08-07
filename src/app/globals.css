@@ -735,3 +735,8 @@ img {
 .accent-blue { accent-color: var(--accent-blue); }
 .accent-green { accent-color: var(--accent-green); }
 .accent-purple { accent-color: var(--accent-purple); }
+
+.caret-auto { caret-color: auto; }
+.caret-blue { caret-color: var(--accent-blue); }
+.caret-green { caret-color: var(--accent-green); }
+.caret-purple { caret-color: var(--accent-purple); }
