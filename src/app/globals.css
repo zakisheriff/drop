@@ -674,3 +674,11 @@ img {
 .all-inherit { all: inherit; }
 .all-revert { all: revert; }
 .all-revert-layer { all: revert-layer; }
+
+.contain-none { contain: none; }
+.contain-size { contain: size; }
+.contain-layout { contain: layout; }
+.contain-style { contain: style; }
+.contain-paint { contain: paint; }
+.contain-content { contain: content; }
+.contain-strict { contain: strict; }
