@@ -48,3 +48,7 @@ html, body {
 .btn-primary:hover {
   background: #272727;
 }
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
