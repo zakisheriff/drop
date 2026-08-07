@@ -97,3 +97,9 @@ html, body {
   --radius-xl: 16px;
   --radius-full: 9999px;
 }
+
+:root {
+  --transition-fast: 150ms ease;
+  --transition-normal: 200ms ease;
+  --transition-slow: 300ms ease;
+}
