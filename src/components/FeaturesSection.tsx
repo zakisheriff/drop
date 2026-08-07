@@ -2,6 +2,7 @@
 
 import React from "react";
 import FeatureCard from "./FeatureCard";
+import styles from "./FeaturesSection.module.css";
 
 const features = [
   {
@@ -23,13 +24,13 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section className="features">
-      <div className="features-container">
-        <div className="features-header">
-          <h2 className="features-title">Features</h2>
-          <p className="features-subtitle">Everything you need to download videos instantly</p>
+    <section className={styles.features}>
+      <div className={styles.featuresContainer}>
+        <div className={styles.featuresHeader}>
+          <h2 className={styles.featuresTitle}>Features</h2>
+          <p className={styles.featuresSubtitle}>Everything you need to download videos instantly</p>
         </div>
-        <div className="features-grid">
+        <div className={styles.featuresGrid}>
           {features.map((feature, index) => (
             <FeatureCard
               key={index}
