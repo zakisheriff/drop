@@ -19,13 +19,15 @@ export default function RootPage() {
             <span>P</span>
           </div>
 
-          {/* 16:9 Video Player */}
+          {/* Natural Video Player (Auto-looping showcase) */}
           <div className={styles.videoContainer}>
             <video
               className={styles.videoElement}
               src="/demo.mp4"
-              controls
-              poster="/logo-drop.png"
+              autoPlay
+              loop
+              muted
+              playsInline
               preload="metadata"
             >
               Your browser does not support the video tag.
