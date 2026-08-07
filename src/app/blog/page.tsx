@@ -24,6 +24,24 @@ const blogPosts = [
     date: "2024-01-05",
     author: "Drop Team",
   },
+  {
+    title: "Supported Video Sites",
+    excerpt: "A complete list of all video sites supported by Drop.",
+    date: "2024-01-01",
+    author: "Drop Team",
+  },
+  {
+    title: "Troubleshooting Common Issues",
+    excerpt: "Solutions to the most common problems users encounter.",
+    date: "2023-12-28",
+    author: "Drop Team",
+  },
+  {
+    title: "The Future of Drop",
+    excerpt: "A look at what's coming next for Drop.",
+    date: "2023-12-20",
+    author: "Drop Team",
+  },
 ];
 
 export default function BlogPage() {
