@@ -7,6 +7,8 @@ export default function Newsletter() {
 
   return (
     <section className="newsletter">
+      <div className="newsletter-container">
+      </div>
     </section>
   );
 }
