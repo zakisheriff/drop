@@ -607,3 +607,7 @@ img {
 .clip-circle { clip-path: circle(50%); }
 .clip-square { clip-path: inset(0); }
 .clip-polygon { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+
+.mask-none { mask: none; }
+.mask-linear { mask: linear-gradient(black, black); }
+.mask-radial { mask: radial-gradient(black, black); }
