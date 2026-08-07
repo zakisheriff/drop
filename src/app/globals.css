@@ -730,3 +730,8 @@ img {
 .will-change-scroll { will-change: scroll-position; }
 .will-change-contents { will-change: contents; }
 .will-change-transform { will-change: transform; }
+
+.accent-auto { accent-color: auto; }
+.accent-blue { accent-color: var(--accent-blue); }
+.accent-green { accent-color: var(--accent-green); }
+.accent-purple { accent-color: var(--accent-purple); }
