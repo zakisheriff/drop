@@ -26,6 +26,8 @@ export default function FAQ() {
 
   return (
     <section className="faq">
+      <div className="faq-container">
+      </div>
     </section>
   );
 }
