@@ -23,7 +23,7 @@ export default function RootPage() {
           <div className={styles.videoContainer}>
             <video
               className={styles.videoElement}
-              src="/drop-demo.mp4"
+              src="/demo.mp4"
               controls
               poster="/logo-drop.png"
               preload="metadata"
