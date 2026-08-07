@@ -20,3 +20,12 @@ const faqs = [
     answer: "Yes, Drop is completely free to use. There are no hidden fees or premium features.",
   },
 ];
+
+export default function FAQ() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  return (
+    <section className="faq">
+    </section>
+  );
+}
