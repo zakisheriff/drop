@@ -32,6 +32,17 @@ export default function TestimonialsSection() {
           <h2 className="testimonials-title">What users say</h2>
           <p className="testimonials-subtitle">Trusted by thousands of users worldwide</p>
         </div>
+        <div className="testimonials-grid">
+          {testimonials.map((testimonial, index) => (
+            <TestimonialCard
+              key={index}
+              name={testimonial.name}
+              role={testimonial.role}
+              content={testimonial.content}
+              avatar={testimonial.avatar}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
