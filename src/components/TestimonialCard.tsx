@@ -12,6 +12,9 @@ interface TestimonialCardProps {
 export default function TestimonialCard({ name, role, content, avatar }: TestimonialCardProps) {
   return (
     <div className="testimonial-card">
+      <div className="testimonial-avatar">
+        <span>{avatar}</span>
+      </div>
     </div>
   );
 }
