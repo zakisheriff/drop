@@ -10,6 +10,13 @@ export default function FeaturesPage() {
     <>
       <Navbar />
       <main>
+        <section className="features-hero">
+          <div className="features-hero-container">
+            <h1>Features</h1>
+            <p>Everything you need to download videos instantly</p>
+          </div>
+        </section>
+        <FeaturesSection />
       </main>
       <Footer />
     </>
