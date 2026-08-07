@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import styles from "./FAQ.module.css";
 
 const faqs = [
   {
@@ -25,24 +26,24 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="faq">
-      <div className="faq-container">
-        <div className="faq-header">
-          <h2 className="faq-title">Frequently Asked Questions</h2>
-          <p className="faq-subtitle">Got questions? We've got answers.</p>
+    <section className={styles.faq}>
+      <div className={styles.faqContainer}>
+        <div className={styles.faqHeader}>
+          <h2 className={styles.faqTitle}>Frequently Asked Questions</h2>
+          <p className={styles.faqSubtitle}>Got questions? We've got answers.</p>
         </div>
-        <div className="faq-list">
+        <div className={styles.faqList}>
           {faqs.map((faq, index) => (
-            <div key={index} className="faq-item">
+            <div key={index} className={styles.faqItem}>
               <button 
-                className="faq-question"
+                className={styles.faqQuestion}
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 <span>{faq.question}</span>
-                <span className="faq-icon">{openIndex === index ? "−" : "+"}</span>
+                <span className={styles.faqIcon}>{openIndex === index ? "−" : "+"}</span>
               </button>
               {openIndex === index && (
-                <div className="faq-answer">
+                <div className={styles.faqAnswer}>
                   <p>{faq.answer}</p>
                 </div>
               )}
