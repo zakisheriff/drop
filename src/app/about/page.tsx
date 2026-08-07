@@ -9,6 +9,12 @@ export default function AboutPage() {
     <>
       <Navbar />
       <main>
+        <section className="about-hero">
+          <div className="about-hero-container">
+            <h1>About Drop</h1>
+            <p>We're building the simplest way to download videos on macOS</p>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
