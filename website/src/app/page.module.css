@@ -13,12 +13,12 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 0 2rem; /* Inset letters slightly from the edges */
+  max-width: 420px; /* Narrower width to reduce spacing between letters */
   font-size: 3.5rem;
   font-weight: 600;
   color: #0066ff; /* Royal blue */
   user-select: none;
-  margin-bottom: 8px;
+  margin: 0 auto 8px auto;
 }
 
 @media (max-width: 480px) {
