@@ -15,6 +15,7 @@ export default function TestimonialCard({ name, role, content, avatar }: Testimo
       <div className="testimonial-avatar">
         <span>{avatar}</span>
       </div>
+      <p className="testimonial-content">{content}</p>
     </div>
   );
 }
