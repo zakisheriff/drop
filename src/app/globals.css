@@ -591,3 +591,7 @@ img {
 .columns-2 { columns: 2; }
 .columns-3 { columns: 3; }
 .columns-4 { columns: 4; }
+
+.break-before { break-before: page; }
+.break-after { break-after: page; }
+.break-inside-avoid { break-inside: avoid; }
