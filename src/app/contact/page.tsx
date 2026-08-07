@@ -13,6 +13,12 @@ export default function ContactPage() {
     <>
       <Navbar />
       <main>
+        <section className="contact-hero">
+          <div className="contact-hero-container">
+            <h1>Contact Us</h1>
+            <p>Have questions? We'd love to hear from you.</p>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
