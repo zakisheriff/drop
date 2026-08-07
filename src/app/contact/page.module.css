@@ -2,6 +2,7 @@
   padding: 160px 24px 80px;
   background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
   text-align: center;
+  animation: fadeIn 0.6s ease-out;
 }
 
 .contact-hero-container {
@@ -55,15 +56,35 @@
   border-radius: 8px;
   font-size: 1rem;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.1);
 }
 
 .form-group textarea {
   min-height: 150px;
   resize: vertical;
+}
+
+.successMessage {
+  text-align: center;
+  padding: 48px;
+  background: var(--bg-secondary);
+  border-radius: 16px;
+}
+
+.successMessage h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--accent-green);
+}
+
+.successMessage p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
 }
