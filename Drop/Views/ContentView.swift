@@ -112,20 +112,37 @@ struct ContentView: View {
         .padding(.vertical, 24)
     }
 
-    /// D R O P, letter-spaced to the width of the link field beneath it.
+    /// D R O P, letter-spaced to the width of the link field beneath it, with a support button on the trailing side.
     private var wordmark: some View {
-        HStack(spacing: 0) {
-            ForEach(Array("DROP".enumerated()), id: \.offset) { _, letter in
-                Text(String(letter))
-                    .frame(maxWidth: .infinity)
+        ZStack(alignment: .trailing) {
+            HStack(spacing: 0) {
+                ForEach(Array("DROP".enumerated()), id: \.offset) { _, letter in
+                    Text(String(letter))
+                        .frame(maxWidth: .infinity)
+                }
             }
+            .font(.system(size: 30, weight: .semibold))
+            .foregroundStyle(model.canDownload ? AnyShapeStyle(.tint) : AnyShapeStyle(.primary))
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Drop")
+            .accessibilityAddTraits(.isHeader)
+
+            Button(action: {
+                if let url = URL(string: "https://buymeacoffee.com/theoneatom") {
+                    NSWorkspace.shared.open(url)
+                }
+            }) {
+                HStack(spacing: 4) {
+                    Image(systemName: "heart.fill")
+                        .foregroundColor(.red)
+                    Text("Support")
+                        .font(.caption)
+                }
+            }
+            .buttonStyle(.bordered)
+            .help("Support the developer on Buy Me a Coffee")
         }
-        .font(.system(size: 30, weight: .semibold))
-        .foregroundStyle(model.canDownload ? AnyShapeStyle(.tint) : AnyShapeStyle(.primary))
         .frame(width: Self.fieldWidth)
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Drop")
-        .accessibilityAddTraits(.isHeader)
     }
 
     private var isAlertPresented: Binding<Bool> {

@@ -24,7 +24,6 @@ export default function RootPage() {
             <video
               className={styles.videoElement}
               src="/demo3.mp4"
-              controls
               autoPlay
               loop
               muted
