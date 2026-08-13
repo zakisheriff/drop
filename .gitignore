@@ -1,4 +1,5 @@
-build/
+/build/
+/build_output/
 DerivedData/
 .DS_Store
 xcuserdata/
