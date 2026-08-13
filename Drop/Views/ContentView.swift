@@ -68,6 +68,7 @@ struct ContentView: View {
                 .lineLimit(1)
                 .frame(maxWidth: Self.fieldWidth)
                 .focused($isLinkFieldFocused)
+                .focusEffectDisabled()
                 .accessibilityLabel("Copied link")
 
                 Text(model.subtitle ?? " ")
@@ -132,15 +133,13 @@ struct ContentView: View {
                     NSWorkspace.shared.open(url)
                 }
             }) {
-                HStack(spacing: 4) {
-                    Image(systemName: "heart.fill")
-                        .foregroundColor(.red)
-                    Text("Support")
-                        .font(.caption)
-                }
+                Image(systemName: "heart.fill")
+                    .foregroundColor(.red)
+                    .font(.system(size: 20))
             }
-            .buttonStyle(.bordered)
+            .buttonStyle(.plain)
             .help("Support the developer on Buy Me a Coffee")
+            .offset(x: 12)
         }
         .frame(width: Self.fieldWidth)
     }
