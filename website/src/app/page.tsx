@@ -37,7 +37,7 @@ export default function RootPage() {
 
           {/* Download Action and Keycap */}
           <div className={styles.actionArea}>
-            <a href="/build/Drop-macOS.zip" download className="btn-primary">
+            <a href="/build/Drop-macOS.dmg" download className="btn-primary">
               <Download size={18} />
               <span>Download for macOS</span>
             </a>

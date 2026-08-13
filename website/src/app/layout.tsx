@@ -87,7 +87,7 @@ export default function RootLayout({
         "@id": "https://drop.theatom.lk/#software",
         "name": "Drop",
         "url": "https://drop.theatom.lk",
-        "downloadUrl": "https://drop.theatom.lk/build/Drop-macOS.zip",
+        "downloadUrl": "https://drop.theatom.lk/build/Drop-macOS.dmg",
         "operatingSystem": "macOS 15.0 or later",
         "applicationCategory": "UtilityApplication",
         "description": "A native macOS utility that monitors your clipboard for video links and downloads them instantly with Control+D in highest quality.",

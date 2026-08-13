@@ -123,8 +123,8 @@ cd drop
 ### 2. Download Compiled App
 
 Get the latest build:
-* Download from `https://drop.theatom.lk/build/Drop-macOS.zip`
-* Unzip and move to your `/Applications` folder.
+* Download from `https://drop.theatom.lk/build/Drop-macOS.dmg`
+* Open the disk image and drag the app to your `/Applications` folder.
 
 ### 3. Build Web Page Locally
 
