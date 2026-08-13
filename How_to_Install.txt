@@ -1,14 +1,12 @@
 Drop - Installation Instructions
 
-Because Drop is a native utility distributed directly outside the Mac App Store, macOS Gatekeeper might show a prompt when you first open the app (e.g., warning that it's from an unidentified developer). This is normal for unnotarized independent developer builds.
+1. Drag and drop the "Drop" app icon into the "Applications" shortcut folder next to it.
+2. Open the app from your Applications folder. When the system warning alert displays, close the dialog.
+3. Open System Settings on your Mac.
+4. Click "Privacy & Security" in the left sidebar.
+5. Scroll down to the "Security" section.
+6. You will see a message: "'Drop' was blocked to protect your Mac."
+7. Click the "Open Anyway" button next to it.
+8. Enter your Mac password/Touch ID to confirm, then click "Open".
 
-To launch the app:
-1. Open Drop.app. When the system warning alert displays, close the dialog.
-2. Open System Settings on your Mac.
-3. Click "Privacy & Security" in the left sidebar.
-4. Scroll down to the "Security" section.
-5. You will see a message: "'Drop' was blocked to protect your Mac."
-6. Click the "Open Anyway" button next to it.
-7. Enter your Mac password/Touch ID to confirm, then click "Open".
-
-Drop will now open and run perfectly! You only need to perform these steps once.
+Drop will now run perfectly! You only need to perform these steps once.
