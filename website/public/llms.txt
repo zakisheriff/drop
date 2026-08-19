@@ -1,0 +1,21 @@
+# Drop
+
+> Drop is a native macOS utility that monitors your clipboard for video links and downloads them instantly, in the highest available quality, with a single shortcut (Control+D).
+
+Drop runs quietly in the background. Copy a video link from any app or browser, press Control+D, and Drop downloads the video at the highest quality available — no need to open an app, paste a link, or pick a format.
+
+## Key facts
+
+- Platform: macOS 15.0 and later
+- Core interaction: copy a video URL, press Control+D, the video downloads automatically
+- Pricing: free
+- Category: utility / productivity / video downloader
+- Publisher: The Atom (https://theatom.lk)
+
+## Pages
+
+- [Homepage](https://drop.theatom.lk/): product overview, demo video, and download link for macOS
+
+## Download
+
+- [Drop for macOS](https://drop.theatom.lk/build/Drop-macOS.dmg)
